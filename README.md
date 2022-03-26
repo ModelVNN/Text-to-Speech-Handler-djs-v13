@@ -1,34 +1,31 @@
-# Dự án: djs-v13-base
-> Nói đơn giản hơn thì đây sẽ là dự án giúp cho các bạn mới code sẽ dùng base handler này để code tiếp các command riêng mình hoặc có thể code theo mình.
+# Project: Text-to-Speek-handler-djs-v13
 
-## Yêu cầu
+## Request
 
-1. Cách tạo bot **[Guide](https://polowis.home.blog/2019/01/21/huong-dan-tao-bot-tren-discord-p1/)**
-2. Node.js v16 trở lên
+1. How to create and host bot **[Guide](https://www.freecodecamp.org/news/create-a-discord-bot-with-python/)**
+2. Node.js v16 and above
 ## Setup bot
 
--  Đổi tên `example.env` thành `.env` để hoạt động
-- Đổi tên `config.example.json` thành `example.config.json` để đặt 1 số setting cho bot
+- Rename `example.config.json` to `config.json` to set some settings for the bot
 
-**Lưu ý:** Không để lộ token bot chính, có thể dùng bot phụ, nếu có lỡ push github thì discord sẽ báo với bạn, hãy truy cập vào trang bot để đổi lại token tránh rủi ro cho sau này.
+**Lưu ý:** Do not reveal the main bot token, you can use the secondary bot, if you miss push github, the discord will notify you, visit the bot page to exchange tokens to avoid risks for later.
 
 
-```env
-  TOKEN=<Token bot của bạn>
-```
+
 
 ```Config
-  "!": Nhập prefix của bạn cho bot
+  "token": "Enter your token for the bot"
+  "prefix": "Enter your prefix for the bot"
 ```
 
-## Cài thư viện và chạy bot test
-Bạn cần setup bot trước qua lệnh shell:
+## Install the library and run the bot test
+You need to set up the bot first via the shell command:
 ```
 npm i
 ```
-để tiến hành cài đặt thư viện của bot
+to proceed with the installation of the bot's library
 
-Cách chạy bot:
+How to run bot:
 ```
 node .
 ```
