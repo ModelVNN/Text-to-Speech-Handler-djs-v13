@@ -1,15 +1,7 @@
 {
-  "name": "djs-v13-based",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "discord.js": "^13.1.0",
-    "dotenv": "^10.0.0"
+    "@discordjs/voice": "^0.8.0",
+    "discord.js": "^13.6.0",
+    "google-tts-api": "^2.0.2"
   }
 }
