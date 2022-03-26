@@ -1,6 +1,6 @@
 # Text-to-Speech-Handler-djs-v13
 
-## Reqest
+## Request
 
 1. How to create: **[Guide](https://www.freecodecamp.org/news/create-a-discord-bot-with-javascript-nodejs/)**
 2. Node.js v16 above
